@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Cars - DriveZone Motors</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background-color: #14213d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #fca311;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 10px;
+            color: #14213d;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-color: #e5eaf2;
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            color: #14213d;
+        }
+
+        .car-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .car-card {
+            background-color: white;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px #cccccc;
+        }
+
+        .car-card img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .car-card h3 {
+            color: #14213d;
+        }
+
+        .price {
+            color: #14213d;
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #fca311;
+            color: black;
+            padding: 12px 20px;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #e89400;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #14213d;
+        }
+
+        .contact-section {
+            background-color: #e5eaf2;
+            text-align: center;
+            padding: 25px;
+        }
+
+        footer {
+            background-color: #14213d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                margin: 7px;
+            }
+
+            .car-container {
+                padding: 15px;
+            }
+
+            .car-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>DriveZone Motors</h1>
+        <p>Make Your Dream Car a Reality</p>
+    </header>
+
+    <nav>
+        <a href="newcars.html">New Cars</a>
+        <a href="preowned.html">Pre-Owned</a>
+        <a href="financing.html">Financing</a>
+        <a href="service.html">Service & Parts</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Explore Our New Cars</h2>
+        <p>Discover the latest cars with modern features, stylish designs, and advanced technology.</p>
+        <p>Find a car that matches your lifestyle and budget.</p>
+        <a href="contactus.html" class="button">Enquire Now</a>
+    </div>
+
+    <h2 class="section-title">Our New Car Collection</h2>
+
+    <div class="car-container">
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=700&q=80" alt="Modern sports sedan">
+            <h3>Premium Sedan</h3>
+            <p class="price">₹15,00,000</p>
+            <p>A stylish sedan offering comfort, modern technology, and a smooth driving experience.</p>
+            <p><b>Fuel:</b> Petrol | <b>Transmission:</b> Automatic</p>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=700&q=80" alt="Modern SUV">
+            <h3>Modern SUV</h3>
+            <p class="price">₹20,00,000</p>
+            <p>A spacious SUV designed for family journeys, road trips, and everyday driving.</p>
+            <p><b>Fuel:</b> Diesel | <b>Transmission:</b> Automatic</p>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=80" alt="Luxury sports coupe">
+            <h3>Luxury Sports Coupe</h3>
+            <p class="price">₹28,50,000</p>
+            <p>A sporty design combined with powerful performance and a premium interior.</p>
+            <p><b>Fuel:</b> Petrol | <b>Transmission:</b> Automatic</p>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=700&q=80" alt="Red performance car">
+            <h3>Performance Car</h3>
+            <p class="price">₹35,00,000</p>
+            <p>A bold-looking car for drivers who enjoy performance, style, and responsive handling.</p>
+            <p><b>Fuel:</b> Petrol | <b>Transmission:</b> Automatic</p>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=700&q=80" alt="Elegant family sedan">
+            <h3>Family Sedan</h3>
+            <p class="price">₹9,50,000</p>
+            <p>A practical and comfortable option for daily commutes and family travel.</p>
+            <p><b>Fuel:</b> Petrol | <b>Transmission:</b> Manual</p>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=700&q=80" alt="Premium family SUV">
+            <h3>Premium Family SUV</h3>
+            <p class="price">₹24,00,000</p>
+            <p>A spacious vehicle with a commanding driving position and room for family adventures.</p>
+            <p><b>Fuel:</b> Diesel | <b>Transmission:</b> Automatic</p>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=700&q=80" alt="Compact city car">
+            <h3>City Hatchback</h3>
+            <p class="price">₹6,50,000</p>
+            <p>A compact car suited to city driving, daily errands, and easy parking.</p>
+            <p><b>Fuel:</b> Petrol | <b>Transmission:</b> Manual</p>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=700&q=80" alt="Electric vehicle">
+            <h3>Electric Car</h3>
+            <p class="price">₹18,00,000</p>
+            <p>A modern electric vehicle designed for quiet driving and reduced tailpipe emissions.</p>
+            <p><b>Fuel:</b> Electric | <b>Transmission:</b> Automatic</p>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=700&q=80" alt="Executive luxury sedan">
+            <h3>Executive Sedan</h3>
+            <p class="price">₹22,00,000</p>
+            <p>A premium sedan featuring refined styling and a comfortable cabin for longer journeys.</p>
+            <p><b>Fuel:</b> Petrol | <b>Transmission:</b> Automatic</p>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?auto=format&fit=crop&w=700&q=80" alt="Sporty coupe">
+            <h3>Sporty Coupe</h3>
+            <p class="price">₹32,00,000</p>
+            <p>A sleek coupe with a distinctive design for those looking for a sporty driving experience.</p>
+            <p><b>Fuel:</b> Petrol | <b>Transmission:</b> Automatic</p>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+    </div>
+
+    <div class="contact-section">
+        <h2 style="color: #14213d;">Found Your Dream Car?</h2>
+        <p>Contact our team to learn more about availability, features, and purchasing options.</p>
+        <a href="contactus.html" class="button">Contact Us</a>
+    </div>
+
+    <footer>
+        <p>© 2026 DriveZone Motors</p>
+        <p>Your Journey, Our Priority!</p>
+    </footer>
+
+</body>
+</html>

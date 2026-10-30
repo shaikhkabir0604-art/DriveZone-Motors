@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Cars - DriveZone Motors</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background-color: #14213d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #fca311;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 8px 12px;
+            color: #14213d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-color: #14213d;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-top: 0;
+        }
+
+        .hero p {
+            line-height: 1.7;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #14213d;
+            margin: 30px 10px 20px;
+        }
+
+        .car-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 20px;
+        }
+
+        .car-card {
+            background-color: white;
+            width: 350px;
+            max-width: 100%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px #cccccc;
+        }
+
+        .car-card img {
+            width: 300px;
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .car-card h3 {
+            color: #14213d;
+        }
+
+        .car-card p {
+            line-height: 1.6;
+        }
+
+        .price {
+            font-size: 21px;
+            color: #14213d;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #fca311;
+            color: #14213d;
+            padding: 12px 20px;
+            margin-top: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #e89400;
+        }
+
+        .contact-section {
+            background-color: #e8e8e8;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #14213d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                margin: 7px;
+            }
+
+            .car-container {
+                padding: 15px;
+            }
+
+            .car-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>DriveZone Motors</h1>
+        <p>Quality Cars for Every Journey</p>
+    </header>
+
+    <nav>
+        <a href="newcars.html">New Cars</a>
+        <a href="preowned.html">Pre-Owned</a>
+        <a href="financing.html">Financing</a>
+        <a href="service.html">Service &amp; Parts</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Explore Our New Cars</h2>
+        <p>
+            Discover the latest cars with modern designs,
+            advanced features, and impressive performance.
+        </p>
+    </section>
+
+    <h2 class="section-title">Our New Car Collection</h2>
+
+    <section class="car-container">
+
+        <div class="car-card">
+            <h3>Premium Sedan</h3>
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=800&q=80" alt="Premium sedan">
+            <p>2026 Model | Automatic | Petrol</p>
+            <p>A stylish sedan offering comfort and a smooth driving experience.</p>
+            <h3 class="price">Price: ₹15,00,000</h3>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <h3>Modern SUV</h3>
+            <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=800&q=80" alt="Modern SUV">
+            <p>2026 Model | Automatic | Diesel</p>
+            <p>A spacious SUV designed for family trips and comfortable travel.</p>
+            <h3 class="price">Price: ₹20,00,000</h3>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <h3>Sports Coupe</h3>
+            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80" alt="Sports coupe">
+            <p>2026 Model | Automatic | Petrol</p>
+            <p>A sporty design with impressive performance and modern styling.</p>
+            <h3 class="price">Price: ₹28,50,000</h3>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <h3>Luxury Sports Car</h3>
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="Luxury sports car">
+            <p>2026 Model | Automatic | Petrol</p>
+            <p>A premium performance car with a bold and elegant appearance.</p>
+            <h3 class="price">Price: ₹35,00,000</h3>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <h3>Family Sedan</h3>
+            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80" alt="Family sedan">
+            <p>2026 Model | Manual | Petrol</p>
+            <p>A practical car for daily commuting and family journeys.</p>
+            <h3 class="price">Price: ₹9,50,000</h3>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <h3>Premium Family SUV</h3>
+            <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=800&q=80" alt="Premium family SUV">
+            <p>2026 Model | Automatic | Diesel</p>
+            <p>Enjoy generous cabin space, comfort, and versatile performance.</p>
+            <h3 class="price">Price: ₹24,00,000</h3>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <h3>City Hatchback</h3>
+            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80" alt="City hatchback">
+            <p>2026 Model | Manual | Petrol</p>
+            <p>A compact and convenient choice for everyday city driving.</p>
+            <h3 class="price">Price: ₹6,50,000</h3>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <h3>Electric Car</h3>
+            <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=800&q=80" alt="Electric car">
+            <p>2026 Model | Automatic | Electric</p>
+            <p>A modern electric vehicle designed for quiet and efficient travel.</p>
+            <h3 class="price">Price: ₹18,00,000</h3>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <h3>Executive Sedan</h3>
+            <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80" alt="Executive sedan">
+            <p>2026 Model | Automatic | Diesel</p>
+            <p>A refined sedan with a premium look and comfortable interior.</p>
+            <h3 class="price">Price: ₹22,00,000</h3>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+        <div class="car-card">
+            <h3>Performance Coupe</h3>
+            <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=80" alt="Performance coupe">
+            <p>2026 Model | Automatic | Petrol</p>
+            <p>A bold coupe for drivers who enjoy sporty styling and performance.</p>
+            <h3 class="price">Price: ₹32,00,000</h3>
+            <a href="contactus.html" class="button">Enquire Now</a>
+        </div>
+
+    </section>
+
+    <section class="contact-section">
+        <h2>Found Your Dream Car?</h2>
+        <p>Contact our team to enquire about your preferred car.</p>
+        <a href="contactus.html" class="button">Contact Us</a>
+    </section>
+
+    <footer>
+        <p>© 2026 DriveZone Motors. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
